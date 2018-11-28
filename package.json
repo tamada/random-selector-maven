@@ -1,0 +1,27 @@
+{
+  "name": "random-selector-maven",
+  "version": "1.0.0",
+  "description": "Selecting the product in the maven repository randomly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tamada/random-selector-maven.git"
+  },
+  "keywords": [
+    "maven",
+    "random",
+    "selection"
+  ],
+  "author": "Haruaki Tamada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tamada/random-selector-maven/issues"
+  },
+  "homepage": "https://github.com/tamada/random-selector-maven#readme",
+  "dependencies": {
+    "fast-xml-parser": "^3.12.9"
+  }
+}
