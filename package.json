@@ -4,7 +4,8 @@
   "description": "Selecting the product in the maven repository randomly.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "npm run lint",
+    "lint": "eslint *.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,11 @@
   "bugs": {
     "url": "https://github.com/tamada/random-selector-maven/issues"
   },
-  "homepage": "https://github.com/tamada/random-selector-maven#readme",
+  "homepage": "https://github.com/tamada/random-selector-maven",
   "dependencies": {
     "fast-xml-parser": "^3.12.9"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
   }
 }
